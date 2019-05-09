@@ -23,8 +23,8 @@ Data contains the mean of observations and standard deviations of 80 variables m
 
 #Identifiers
 
-"activityID"
-"subjectID"
+"activityID" - activities that were labeled 1 -6
+"subjectID" - individual subjects
 
 ##Measurements contained here
 
@@ -107,3 +107,16 @@ Data contains the mean of observations and standard deviations of 80 variables m
 "FrequencyBodyBodyGyroscopeJerkMagnitude-mean" 
 "FrequencyBodyBodyGyroscopeJerkMagnitude-std" 
 "FrequencyBodyBodyGyroscopeJerkMagnitude-meanFreq"
+
+##Changes
+The original file was messy and changed to denote meaning
+
+t = time
+Acc = Accelerometer
+Gyro = Gyroscope
+Mag = Magnitude
+Bodybody/BodyBody = Body
+And I removed some parentheses. 
+
+
+
